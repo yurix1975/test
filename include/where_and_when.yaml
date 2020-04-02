@@ -1,3 +1,4 @@
 ---
 - name: Where and When
-  debug: "Running on {{inventory_hostname}} at {{ansible_date_time.iso8601_basic}}
+  debug: 
+    msg: "Running on {{ inventory_hostname }} at {{ ansible_date_time.iso8601_basic }}"
