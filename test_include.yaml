@@ -1,0 +1,7 @@
+---
+- name: task inclusion
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - include: include/where_and_when.yaml
+
